@@ -1,6 +1,7 @@
 import  React, { Component } from 'react';
 import Logo1 from './logo';
 import Zaloguj from './zaloguj';
+import Zarejestruj from './zarejestruj';
 import Wyszukaj from './wyszukaj';
 
 class Naglowek extends Component {
@@ -46,7 +47,12 @@ class Naglowek extends Component {
 
                  </div>
                 <Zaloguj />
+
+                <Zarejestruj />
                </div>
+
+
+
     }
 }
 

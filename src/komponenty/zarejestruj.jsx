@@ -1,12 +1,13 @@
 import  React, { Component } from 'react';
 import { Link } from "react-router-dom";
 
-class Zaloguj extends Component {
+
+class Zarejestruj extends Component {
     state = {};
 
     render(){
         return <div>
-                 <div style={{width: "6%",
+                 <div style={{width: "8%",
                  height: "7%",
                  float: "right",
                  position: "relative",
@@ -16,7 +17,7 @@ class Zaloguj extends Component {
                  marginTop: "10px",
                  marginRight: "10px"}}>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                       <Link to="signin"><button type="button" class="btn btn-outline-success">Zaloguj się</button></Link>
+                       <Link to="signup"><button type="button" class="btn btn-outline-primary">Zarejestruj się</button></Link>
                      </div>
                  </div>
 
@@ -24,4 +25,4 @@ class Zaloguj extends Component {
     }
 }
 
-export default Zaloguj;
+export default Zarejestruj;

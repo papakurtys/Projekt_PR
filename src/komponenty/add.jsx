@@ -4,7 +4,7 @@ import Opis_filmu from './opis_filmu';
 import Tytul from './tytul';
 import { Link } from "react-router-dom";
 
-class Filmy extends Component {
+class Add extends Component {
     state = {};
 
     render(){
@@ -21,4 +21,4 @@ class Filmy extends Component {
     }
 }
 
-export default Filmy;
+export default Add;
