@@ -3,11 +3,49 @@ import Filmy from './filmy';
 
 
 class Home extends Component {
-    state = {};
+ constructor(props) {
+       super(props);
+       this.state = {
+           error: null,
+           isLoaded: false,
+           items: []
+       };
+   }
 
-    render(){
-        return <div style={{display: "flex", justifyContent: "center", flexWrap: "wrap", backgroundColor: "#DCDCDC"}}> <Filmy />  <Filmy />  <Filmy />  <Filmy />  <Filmy />  <Filmy /><Filmy /><Filmy /> </div>
-    }
+   componentDidMount() {
+       fetch("https://pr-movies.herokuapp.com/api/movies")
+           .then(res => res.json())
+           .then(
+               (result) => {
+                   this.setState({
+                       isLoaded: true,
+                       items: result
+                   });
+                   console.log(result)
+               },
+
+               (error) => {
+                   this.setState({
+                       isLoaded: true,
+                       error
+                   });
+               }
+           )
+   }
+
+   render() {
+   const { items } = this.state;
+
+          if (!items.length) {
+              return <p>Brak wpisów</p>
+          }
+
+
+       return ( <div > <Filmy
+                 items={items}/> </div>
+)
+   }
 }
+
 
 export default Home;

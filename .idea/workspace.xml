@@ -5,12 +5,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/komponenty/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/komponenty/SignIn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/komponenty/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/komponenty/SignUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/komponenty/add.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/komponenty/add.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/komponenty/details.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/komponenty/details.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/komponenty/filmy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/komponenty/filmy.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/komponenty/logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/komponenty/logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/komponenty/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/komponenty/home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/komponenty/naglowek.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/komponenty/naglowek.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/komponenty/zaloguj.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/komponenty/zaloguj.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/komponenty/add.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/komponenty/zaloguj.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/komponenty/SignUp.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/komponenty/SignIn.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/komponenty/filmy.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/komponenty/naglowek.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/komponenty/home.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/index.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -34,6 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -46,11 +62,5 @@
       <updated>1637842783148</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="591" y="288" width="672" height="678" key="search.everywhere.popup" timestamp="1637848719947">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="591" y="288" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1637848719947" />
   </component>
 </project>

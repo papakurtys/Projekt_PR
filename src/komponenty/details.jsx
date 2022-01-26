@@ -5,19 +5,46 @@ import Tytul from './tytul';
 import { Link } from "react-router-dom";
 
 class Details extends Component {
-    state = {};
+  constructor(props) {
+        super(props);
+        this.state = {
+            error: null,
+            isLoaded: false,
+            szczegoly: []
+        };
+    }
+
+    componentDidMount() {
+        fetch("https://pr-movies.herokuapp.com/api/movies/" + window.location.pathname.substring(9))
+            .then(res => res.json())
+            .then(
+                (result) => {
+                    this.setState({
+                        isLoaded: true,
+                        szczegoly: result
+                    });
+                    console.log(result)
+                },
+
+                (error) => {
+                    this.setState({
+                        isLoaded: true,
+                        error
+                    });
+                }
+            )
+    }
+
 
     render(){
-        return <div style={{float: "left", marginTop: "6%", marginLeft: "1%", justifyContent: "center" }}>
+        return <div style={{float: "left", marginTop: "6%", marginRight: "9%", marginLeft: "1%", justifyContent: "center" }}>
 
-                   <div style={{display: "flex", flexDirection: "row" }}> <img src= {Film1} class="card-img-top" alt="Film1" style={{height: "60%", width: "20%"}} ></img>
-                      <div><h5 class="card-title"><Tytul /></h5>
+                   <div style={{display: "flex", flexDirection: "row" }}> <img src= {this.state.szczegoly.image} class="card-img-top" alt="Film1" style={{height: "60%", width: "20%"}} ></img>
+                      <div style={{marginLeft: "1%"}}>
+                      <h5 class="card-title">{this.state.szczegoly.title}</h5>
 
 
-                     <p class="card-text">"Escape Room: Najlepsi z najlepszych" to druga część thrillera "Escape Room" z 2019 roku. Opowiadał o grupie nieznanych sobie osób, które trafiły do escape roomu stanowiącego dla nich śmiertelne zagrożenie.</p><br />
-                     <p> Pełny opis
-                      W nowym filmie grupa kilku osób zostanie zamknięta w Escape Roomie i podejmie próbę wydostania się z niego za wszelką cenę. Reżyserem filmu ponownie jest Adam Robitel. W rolach głównych zobaczymy : Taylora Russella ("Zagubieni w kosmosie") oraz Logana Millera ("Twój Simon").</p>
-                   </div>
+                     <p class="card-text"> {this.state.szczegoly.content}</p></div>
                    </div>
                    </div>
 

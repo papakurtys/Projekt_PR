@@ -23,7 +23,7 @@ ReactDOM.render(
            <Route path='/' element={<Home />} />
            <Route path='/SignUp' element={<SignUp />} />
            <Route path='/SignIn' element={<SignIn />} />
-           <Route path='/details' element={<Details />} />
+           <Route path='/details/:id' element={<Details />} />
            <Route path='/add' element={<Add />} />
     </Routes>
      <Stopka />
