@@ -1,7 +1,4 @@
 import  React, { Component } from 'react';
-import Film1 from '../zdjecia/film1.png';
-import Opis_filmu from './opis_filmu';
-import Tytul from './tytul';
 import { Link } from "react-router-dom";
 
 const Filmy = ( props ) => {

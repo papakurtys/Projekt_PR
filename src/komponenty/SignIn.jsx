@@ -16,8 +16,8 @@ class SignIn extends Component {
         errors: {}
     };
 
-    handleClick = () => {
-        this.props.history.push("/");
+    handleChangeRoute = () => {
+       // this.props.history.push("/");
         window.location.reload();
     };
 

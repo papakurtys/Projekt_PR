@@ -3,16 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="39ef46be-f918-4e93-827a-47a24f9f42e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/komponenty/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/komponenty/SignIn.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/komponenty/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/komponenty/SignUp.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/komponenty/add.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/komponenty/add.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/komponenty/details.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/komponenty/details.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/komponenty/filmy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/komponenty/filmy.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/komponenty/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/komponenty/home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/komponenty/naglowek.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/komponenty/naglowek.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -15,7 +15,7 @@ class SignUp extends Component {
     };
 
     handleChangeRoute = () => {
-        this.props.history.push('/');
+      //  this.props.history.push('/');
         window.location.reload();
     };
 
